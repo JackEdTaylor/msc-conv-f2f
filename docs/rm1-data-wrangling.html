@@ -24,7 +24,7 @@
 <meta name="author" content="Emily Nordmann, Heather Cleland-Woods, Phil McAleer" />
 
 
-<meta name="date" content="2020-01-15" />
+<meta name="date" content="2020-01-17" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -992,20 +992,20 @@ When learning to code it can be a useful practice to read your code â€˜out loudâ
 <div class="sourceCode" id="cb63"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb63-1" title="1"><span class="kw">library</span>(<span class="st">&quot;tidyverse&quot;</span>)</a>
 <a class="sourceLine" id="cb63-2" title="2">pong_data &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;PongBlueRedBack 1-16 Codebook.csv&quot;</span>)</a>
 <a class="sourceLine" id="cb63-3" title="3"><span class="kw">summary</span>(pong_data)</a></code></pre></div>
-<pre><code>##   Participant     JudgedSpeed      PaddleLength   BallSpeed  
-##  Min.   : 1.00   Min.   :0.0000   Min.   : 50   Min.   :2.0  
-##  1st Qu.: 4.75   1st Qu.:0.0000   1st Qu.: 50   1st Qu.:3.0  
-##  Median : 8.50   Median :1.0000   Median :150   Median :4.5  
-##  Mean   : 8.50   Mean   :0.5471   Mean   :150   Mean   :4.5  
-##  3rd Qu.:12.25   3rd Qu.:1.0000   3rd Qu.:250   3rd Qu.:6.0  
-##  Max.   :16.00   Max.   :1.0000   Max.   :250   Max.   :7.0  
-##   TrialNumber     BackgroundColor      HitOrMiss       BlockNumber   
-##  Min.   :  1.00   Length:4608        Min.   :0.0000   Min.   : 1.00  
-##  1st Qu.: 72.75   Class :character   1st Qu.:0.0000   1st Qu.: 3.75  
-##  Median :144.50   Mode  :character   Median :1.0000   Median : 6.50  
-##  Mean   :144.50                      Mean   :0.6866   Mean   : 6.50  
-##  3rd Qu.:216.25                      3rd Qu.:1.0000   3rd Qu.: 9.25  
-##  Max.   :288.00                      Max.   :1.0000   Max.   :12.00</code></pre>
+<pre><code>##   Participant     JudgedSpeed      PaddleLength   BallSpeed    TrialNumber    
+##  Min.   : 1.00   Min.   :0.0000   Min.   : 50   Min.   :2.0   Min.   :  1.00  
+##  1st Qu.: 4.75   1st Qu.:0.0000   1st Qu.: 50   1st Qu.:3.0   1st Qu.: 72.75  
+##  Median : 8.50   Median :1.0000   Median :150   Median :4.5   Median :144.50  
+##  Mean   : 8.50   Mean   :0.5471   Mean   :150   Mean   :4.5   Mean   :144.50  
+##  3rd Qu.:12.25   3rd Qu.:1.0000   3rd Qu.:250   3rd Qu.:6.0   3rd Qu.:216.25  
+##  Max.   :16.00   Max.   :1.0000   Max.   :250   Max.   :7.0   Max.   :288.00  
+##  BackgroundColor      HitOrMiss       BlockNumber   
+##  Length:4608        Min.   :0.0000   Min.   : 1.00  
+##  Class :character   1st Qu.:0.0000   1st Qu.: 3.75  
+##  Mode  :character   Median :1.0000   Median : 6.50  
+##                     Mean   :0.6866   Mean   : 6.50  
+##                     3rd Qu.:1.0000   3rd Qu.: 9.25  
+##                     Max.   :1.0000   Max.   :12.00</code></pre>
 </div>
 <div id="activity-2-look-at-your-data" class="section level3">
 <h3><span class="header-section-number">3.3.4</span> Activity 2: Look at your data</h3>
